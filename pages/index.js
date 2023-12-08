@@ -50,25 +50,16 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="hg_box">
-                  <span className="hg_count">100+</span>
-                  <span className="hg_desc">
-                    Top Solution <br />
-                    Providers
-                  </span>
+                  <span className="hg_count">5000+</span>
+                  <span className="hg_desc">Professional <br />Buyers</span>
                 </div>
                 <div className="hg_box">
-                  <span className="hg_count">100+</span>
-                  <span className="hg_desc">
-                    Top Solution <br />
-                    Providers
-                  </span>
+                  <span className="hg_count">80+</span>
+                  <span className="hg_desc">International <br />Speakers</span>
                 </div>
                 <div className="hg_box">
-                  <span className="hg_count">100+</span>
-                  <span className="hg_desc">
-                    Top Solution <br />
-                    Providers
-                  </span>
+                  <span className="hg_count">200+</span>
+                  <span className="hg_desc">B2B <br />Meetings</span>
                 </div>
               </div>
             </div>

@@ -15,75 +15,137 @@ const Menu = () => {
             </Link>
 
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <Link href="/about-smart-tech-asia" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/about-smart-tech-asia"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 About SmartTech Asia
               </Link>
-              <Link href="/about-messe-muenchen-india" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/about-messe-muenchen-india"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 About Messe Muenchen India
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/show-facts"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Show facts 2022
               </Link>
             </NavDropdown>
 
             <NavDropdown title="Exhibit" id="basic-nav-exhibit">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/why-exhibit"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Why exhibit?
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/exhibitor-profile"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Exhibitor profile
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link href="https://mmiconnect.in/sta-2023/enquiry?source=website" className="dropdown-item" data-rr-ui-dropdown-item>
                 Exhibitor Registration
               </Link>
             </NavDropdown>
 
             <NavDropdown title="Visit" id="basic-nav-exhibit">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/why-visit"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Why visit?
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/visitor-profile"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Visitor profile
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="https://mmiconnect.in/sta-2023/visitor/registration?source=website"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Visitor Registration
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/getting-there"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Getting there
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/accompanying-programs"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Accompanying Programs
               </Link>
             </NavDropdown>
 
             <NavDropdown title="Conference" id="basic-nav-exhibit">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/conference-agenda"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Conference Agenda
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/speakers"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Speakers
               </Link>
             </NavDropdown>
 
             <NavDropdown title="Press" id="basic-nav-exhibit">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/press-releases"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Press Release
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/press-contact"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Press Contact
               </Link>
             </NavDropdown>
 
             <NavDropdown title="Downloads" id="basic-nav-exhibit">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
-                Exhibitor Registration
-              </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="/glimpses"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Glimpses of 2022
               </Link>
             </NavDropdown>
 
-            <Link href="/" role="button" className="nav-link" tabindex="0">
+            <Link
+              href="/contact-us"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
               Contact Us
             </Link>
           </Nav>
