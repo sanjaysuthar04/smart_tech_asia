@@ -1,14 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Menu from "@/Components/Menu";
+
 import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <>
       <Head>
@@ -42,24 +50,33 @@ export default function Home() {
               </h2>
 
               <div className="d-flex justify-content-around mt_60">
-                <div className="hg_box">
+                <div className="hg_box" data-aos="flip-up" data-aos-delay="100">
                   <span className="hg_count">100+</span>
                   <span className="hg_desc">
                     Top Solution <br />
                     Providers
                   </span>
                 </div>
-                <div className="hg_box">
+                <div className="hg_box"  data-aos="flip-up" data-aos-delay="300">
                   <span className="hg_count">5000+</span>
-                  <span className="hg_desc">Professional <br />Buyers</span>
+                  <span className="hg_desc">
+                    Professional <br />
+                    Buyers
+                  </span>
                 </div>
-                <div className="hg_box">
+                <div className="hg_box" data-aos="flip-up" data-aos-delay="500">
                   <span className="hg_count">80+</span>
-                  <span className="hg_desc">International <br />Speakers</span>
+                  <span className="hg_desc">
+                    International <br />
+                    Speakers
+                  </span>
                 </div>
-                <div className="hg_box">
+                <div className="hg_box" data-aos="flip-up" data-aos-delay="700">
                   <span className="hg_count">200+</span>
-                  <span className="hg_desc">B2B <br />Meetings</span>
+                  <span className="hg_desc">
+                    B2B <br />
+                    Meetings
+                  </span>
                 </div>
               </div>
             </div>
