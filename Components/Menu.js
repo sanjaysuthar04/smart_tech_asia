@@ -15,10 +15,10 @@ const Menu = () => {
             </Link>
 
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link href="/about-smart-tech-asia" className="dropdown-item" data-rr-ui-dropdown-item>
                 About SmartTech Asia
               </Link>
-              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link href="/about-messe-muenchen-india" className="dropdown-item" data-rr-ui-dropdown-item>
                 About Messe Muenchen India
               </Link>
               <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>

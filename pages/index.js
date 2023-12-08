@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Menu from "@/Components/Menu";
+import Header from "@/Components/Header";
+import Footer from "@/Components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,52 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <div className="container">
-          <div className="d-flex py-3">
-            <div className="me-3">
-              <Image
-                src={"/images/logo.png"}
-                width={214}
-                height={124}
-                alt="Logo"
-              />
-            </div>
-            <div className="w-100">
-              <div className="d-flex">
-                <div className="fs_24  ">
-                  <div className="show_info d-flex">
-                    <span className="date">13-15</span>{" "}
-                    <span className="month_year">
-                      September
-                      <br />
-                      2023
-                    </span>
-                  </div>
-                  <div className="venue">
-                    India Expo Mart (IEML), <strong>Greater Noida</strong>
-                  </div>
-                </div>
-
-                <div className="d-flex flex-fill justify-content-end">
-                  <div className="text-center ms-3">
-                    <small className="d-block mb-1">ORGANISER</small>
-                    <Image
-                      src={"/images/mm.png"}
-                      width={110}
-                      height={45}
-                      alt="Logo"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div>
-                <Menu />
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       <main>
         {/* banner section */}
@@ -127,8 +84,8 @@ export default function Home() {
                   <p>
                     Launched in 1999, SmartCards Expo was acquired by Messe
                     Muenchen India in April 2018 as a part of its international
-                    expansion strategy. It is India&apos;s only trade fair focusing
-                    on smart card technologies
+                    expansion strategy. It is India&apos;s only trade fair
+                    focusing on smart card technologies
                     <span className="read_more">Read More</span>
                   </p>
                 </div>
@@ -285,82 +242,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer>
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-4 br_divider">
-              <h4>Contact Us</h4>
-              <div className="company_name mt-3">
-                Messe Muenchen India Pvt Ltd
-              </div>
-              <div className="company_address mt-2">
-                762/862, Solitaire Corporate Park, Building No. 7, <br />
-                6th Floor, Andheri East, Mumbai, 400093
-              </div>
-              <div className="company_other_details mt-2">
-                <strong>Tel:</strong> +91 22 42554700
-                <br />
-                <strong>Direct Line:</strong> +91 22 42554740
-                <br />
-                <strong>Fax:</strong> +91 22 42554799
-              </div>
-
-              <div className="company_name mt-2">AN EVENT ORGANISED BY</div>
-              <Image
-                src={"/images/mm.png"}
-                width={110}
-                height={45}
-                alt="Logo"
-              />
-            </div>
-            <div className="col-12 col-md-8 ps-5">
-              <h4>Meet the Team</h4>
-              <div className="row mt-3">
-                <div className="col-12 col-md-6">
-                  <div className="contact_card">
-                    <div className="contact_name">Brijesh Nair</div>
-                    <div className="contact_details">
-                      Group Exhibition Director
-                      <br />
-                      +91 8080844022 | brijesh.nair@mm-india.in
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <div className="contact_card">
-                    <div className="contact_name">Brijesh Nair</div>
-                    <div className="contact_details">
-                      Group Exhibition Director
-                      <br />
-                      +91 8080844022 | brijesh.nair@mm-india.in
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <div className="contact_card">
-                    <div className="contact_name">Brijesh Nair</div>
-                    <div className="contact_details">
-                      Group Exhibition Director
-                      <br />
-                      +91 8080844022 | brijesh.nair@mm-india.in
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-md-6">
-                  <div className="contact_card">
-                    <div className="contact_name">Brijesh Nair</div>
-                    <div className="contact_details">
-                      Group Exhibition Director
-                      <br />
-                      +91 8080844022 | brijesh.nair@mm-india.in
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
