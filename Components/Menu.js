@@ -13,143 +13,78 @@ const Menu = () => {
             <Link href="/" role="button" className="nav-link ms-3" tabindex="0">
               Home
             </Link>
-            <Link
-              href="/about-evasia-expo"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              About EV ASIA Expo
-            </Link>
-            <Link
-              href="/concurrent-events"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              Concurrent Events
-            </Link>
-            <NavDropdown title="For Exhibitor" id="basic-nav-dropdown">
-              <Link
-                href="/exhibitor-profile"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Profile
-              </Link>
-              <Link
-                href="/exhibitor-countries"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Exhibiting Countries
-              </Link>
-              <Link
-                href="/reasons-to-exhibit"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Reasons to Exhibit
-              </Link>
-              <Link
-                href="/exhibit"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Exhibit
-              </Link>
-              {/* <Link
-                href="/travel-accommodation"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Travel & Accommodation
-              </Link> */}
-              {/* <Link
-                href="/application-form"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Application Form
-              </Link>
-              <Link
-                href="/floor-map"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Floor Map
-              </Link> */}
-            </NavDropdown>
-            <NavDropdown title="For Visitor" id="basic-nav-dropdown">
-              <Link
-                href="/visitors-profile"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Visitor Profile
-              </Link>
-              <Link
-                href="/visiting-countries"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Visiting Countries
-              </Link>
-              <Link
-                href="/register"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Register
-              </Link>
-              {/* <Link
-                href="/hotels-travels"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Hotels & Travels
-              </Link>
-              <Link
-                href="/buyer-registration"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Buyer’s Registration
-              </Link> */}
-            </NavDropdown>
-            {/* <Link
-              href="/partners-media"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              Partners & Media
-            </Link>
-            <Link
-              href="/contact-information"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              Contact Us
-            </Link>
 
-            <Link
-              href="/about-organizer"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              About Organizer
-            </Link>
-             */}
-            <Link
-              href="/startup-pavilion"
-              role="button"
-              className="nav-link"
-              tabindex="0"
-            >
-              Start-up Pavilion
+            <NavDropdown title="About Us" id="basic-nav-dropdown">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                About SmartTech Asia
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                About Messe Muenchen India
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Show facts 2022
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Exhibit" id="basic-nav-exhibit">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Why exhibit?
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Exhibitor profile
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Exhibitor Registration
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Visit" id="basic-nav-exhibit">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Why visit?
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Visitor profile
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Visitor Registration
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Getting there
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Accompanying Programs
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Conference" id="basic-nav-exhibit">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Conference Agenda
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Speakers
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Press" id="basic-nav-exhibit">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Press Release
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Press Contact
+              </Link>
+            </NavDropdown>
+
+            <NavDropdown title="Downloads" id="basic-nav-exhibit">
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Exhibitor Registration
+              </Link>
+              <Link href="/" className="dropdown-item" data-rr-ui-dropdown-item>
+                Glimpses of 2022
+              </Link>
+            </NavDropdown>
+
+            <Link href="/" role="button" className="nav-link" tabindex="0">
+              Contact Us
             </Link>
           </Nav>
         </Navbar.Collapse>
