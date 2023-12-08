@@ -1,17 +1,20 @@
 import Image from "next/image";
 import Menu from "./Menu";
+import Link from "next/link";
 const Header = () => {
   return (
     <header>
       <div className="container">
         <div className="d-flex py-3">
           <div className="me-3">
-            <Image
-              src={"/images/logo.png"}
-              width={214}
-              height={124}
-              alt="Logo"
-            />
+            <Link href={"/"}>
+              <Image
+                src={"/images/logo.png"}
+                width={214}
+                height={124}
+                alt="Logo"
+              />
+            </Link>
           </div>
           <div className="w-100">
             <div className="d-flex">
