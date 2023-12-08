@@ -127,7 +127,7 @@ export default function Home() {
                   <p>
                     Launched in 1999, SmartCards Expo was acquired by Messe
                     Muenchen India in April 2018 as a part of its international
-                    expansion strategy. It is India's only trade fair focusing
+                    expansion strategy. It is India&apos;s only trade fair focusing
                     on smart card technologies
                     <span className="read_more">Read More</span>
                   </p>
