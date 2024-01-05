@@ -57,7 +57,7 @@ export default function Home() {
                     Providers
                   </span>
                 </div>
-                <div className="hg_box"  data-aos="flip-up" data-aos-delay="300">
+                <div className="hg_box" data-aos="flip-up" data-aos-delay="300">
                   <span className="hg_count">5000+</span>
                   <span className="hg_desc">
                     Professional <br />
@@ -136,112 +136,123 @@ export default function Home() {
             <h2 className="title">
               <strong className="clr_blue">Partners</strong>
             </h2>
+            {/* <div className="row pt_40">
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+              <div className="col-12 col-md-2">
+                <picture>
+                  <img
+                    src={"/images/placeholder1.png"}
+                    className="w-100"
+                    alt="Partner Logo"
+                  />
+                </picture>
+              </div>
+            </div> */}
             <div className="row pt_40">
-              <div className="col-12 col-md-2">
+              <div className="col-12 col-md-12">
                 <picture>
                   <img
-                    src={"/images/placeholder1.png"}
+                    src={"/images/partners-1.gif"}
                     className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
-                  />
-                </picture>
-              </div>
-              <div className="col-12 col-md-2">
-                <picture>
-                  <img
-                    src={"/images/placeholder1.png"}
-                    className="w-100"
-                    alt="Partner Logo"
+                    alt="Partners"
                   />
                 </picture>
               </div>
