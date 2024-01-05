@@ -20,11 +20,11 @@ const Header = () => {
             <div className="d-flex">
               <div className="fs_24  ">
                 <div className="show_info d-flex">
-                  <span className="date">13-15</span>{" "}
+                  <span className="date">11-13</span>{" "}
                   <span className="month_year">
                     September
                     <br />
-                    2023
+                    2024
                   </span>
                 </div>
                 <div className="venue">
