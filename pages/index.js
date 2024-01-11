@@ -58,7 +58,7 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="hg_box" data-aos="flip-up" data-aos-delay="300">
-                  <span className="hg_count">5000+</span>
+                  <span className="hg_count">6000+</span>
                   <span className="hg_desc">
                     Professional <br />
                     Buyers
@@ -119,7 +119,7 @@ export default function Home() {
                   <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/0EYgInNm0Sw?si=qqOc4gUxfS4CDhN1&amp;controls=0"
+                    src="https://www.youtube.com/embed/JQ0lljdHu3c?si=qqOc4gUxfS4CDhN1&amp;controls=0"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

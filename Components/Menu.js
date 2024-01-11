@@ -34,7 +34,7 @@ const Menu = () => {
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Show facts 2022
+                Show facts 2023
               </Link>
             </NavDropdown>
 
@@ -53,7 +53,7 @@ const Menu = () => {
               >
                 Exhibitor profile
               </Link>
-              <Link href="https://mmiconnect.in/sta-2023/enquiry?source=website" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link href="https://mmiconnect.in/sta-2024/enquiry" className="dropdown-item" data-rr-ui-dropdown-item>
                 Exhibitor Registration
               </Link>
             </NavDropdown>
@@ -81,11 +81,11 @@ const Menu = () => {
                 Visitor Registration
               </Link>
               <Link
-                href="/getting-there"
+                href="/how-to-reach"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Getting there
+                How to reach
               </Link>
               <Link
                 href="/accompanying-programs"
@@ -136,7 +136,7 @@ const Menu = () => {
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Glimpses of 2022
+                Glimpses of 2023
               </Link>
             </NavDropdown>
 
