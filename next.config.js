@@ -4,6 +4,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: '/changelog',
+        destination: 'https://1linksapp.canny.io/changelog',
+      },
+      {
         source: "/blog",
         destination: "https://astro-paper-4qz.pages.dev/posts", //-> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
       },
