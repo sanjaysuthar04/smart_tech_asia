@@ -9,11 +9,11 @@ const nextConfig = {
       },
       {
         source: "/blog",
-        destination: "https://astro-paper-4qz.pages.dev/posts", //-> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://astro-paper-seven-roan.vercel.app/posts", //-> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
       },
       {
         source: "/blog/:path*",
-        destination: "https://astro-paper-4qz.pages.dev/posts/:path*",// -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://astro-paper-seven-roan.vercel.app/posts/:path*",// -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
       },
     ]
   },
