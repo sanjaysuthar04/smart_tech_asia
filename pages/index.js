@@ -38,8 +38,13 @@ export default function Home() {
           <div className="container pt_40">
             <div className="slider">
               {/* <Image src={"/images/banner1.png"} fill={true} alt="Banner" /> */}
-              <Splide aria-label="My Favorite Images">
-                <SplideSlide>
+              <Splide
+                options={{
+                  autoplay: true,
+                }}
+                aria-label="My Favorite Images"
+              >
+                <SplideSlide c>
                   <img
                     src="/images/slides/banner-1.jpg"
                     className="w-100"
@@ -64,21 +69,21 @@ export default function Home() {
                   <img
                     src="/images/slides/banner-4.jpg"
                     className="w-100"
-                    alt="Image 1"
+                    alt="IMM Conference ISACA or Full house conference"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     src="/images/slides/banner-5.jpg"
                     className="w-100"
-                    alt="Image 1"
+                    alt="Intel Dell Booth Pictures"
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <img
                     src="/images/slides/banner-6.jpg"
                     className="w-100"
-                    alt="Image 1"
+                    alt="Auto ID / Product Picture"
                   />
                 </SplideSlide>
                 <SplideSlide>
