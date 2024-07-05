@@ -56,7 +56,12 @@ header {
   }
   .slider {
     position: relative;
-    height: 400px;
+    // height: 400px;
+    .splide__slide {
+      img {
+        border-radius: 20px;
+      }
+    }
   }
 }
 
@@ -206,7 +211,7 @@ footer {
     bottom: 30px;
   }
 
-  h2{
+  h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
     font-weight: 400;

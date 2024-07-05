@@ -53,7 +53,7 @@ const Menu = () => {
               >
                 Exhibitor profile
               </Link>
-              <Link href="https://mmiconnect.in/sta-2024/enquiry" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link href="https://mmiconnect.in/sta-2025/enquiry?source=website​" className="dropdown-item" data-rr-ui-dropdown-item>
                 Exhibitor Registration
               </Link>
             </NavDropdown>
@@ -74,7 +74,7 @@ const Menu = () => {
                 Visitor profile
               </Link>
               <Link
-                href="https://mmiconnect.in/sta-2023/visitor/registration?source=website"
+                href="https://mmiconnect.in/tse-2025/visitor/registration?source=website​"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >

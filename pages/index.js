@@ -7,6 +7,8 @@ import Footer from "@/Components/Footer";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +37,58 @@ export default function Home() {
           </div>
           <div className="container pt_40">
             <div className="slider">
-              <Image src={"/images/banner1.png"} fill={true} alt="Banner" />
+              {/* <Image src={"/images/banner1.png"} fill={true} alt="Banner" /> */}
+              <Splide aria-label="My Favorite Images">
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-1.jpg"
+                    className="w-100"
+                    alt="Authentication / Identification - Multiple Solutions - Mixtures"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-2.jpg"
+                    className="w-100"
+                    alt="STA Registration"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-3.jpg"
+                    className="w-100"
+                    alt="Aisle crowd"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-4.jpg"
+                    className="w-100"
+                    alt="Image 1"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-5.jpg"
+                    className="w-100"
+                    alt="Image 1"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-6.jpg"
+                    className="w-100"
+                    alt="Image 1"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    src="/images/slides/banner-7.jpg"
+                    className="w-100"
+                    alt="Co-location"
+                  />
+                </SplideSlide>
+              </Splide>
             </div>
           </div>
         </section>
