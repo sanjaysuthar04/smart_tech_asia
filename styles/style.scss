@@ -39,6 +39,9 @@
   font-weight: 400;
 }
 header {
+  .header_main {
+    display: flex;
+  }
   .date {
     font-size: 40px;
     font-weight: 700;
@@ -120,9 +123,8 @@ header {
     }
   }
 }
-.testimonials_section{
+.testimonials_section {
   margin-top: 70px;
-  
 }
 .about_section {
   margin-top: 70px;
@@ -258,6 +260,47 @@ footer {
       right: 0;
       position: absolute;
       z-index: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header_mobile {
+    .logo {
+      text-align: center;
+    }
+    .header_main {
+      display: block;
+    }
+    .dtvenue_block{
+      display: flex;
+    }
+    .show_info {
+      width: 200px;
+      // text-align: center;
+      .date {
+        display: block;
+      }
+      .month_year {
+        br {
+          display: none;
+        }
+      }
+    }
+    
+    .hide_mobile {
+      display: none !important;
+    }
+    .navbar{
+      padding: 8px 20px ;
+    }
+  }
+  .banner_section .slider .splide__slide img{
+    height: 300px;
+  }
+  .testimonial_slider{
+    .splide__slide{
+      height: auto !important;
     }
   }
 }

@@ -32,9 +32,9 @@ export default function Home() {
       <main>
         {/* banner section */}
         <section className="banner_section">
-          <div className="bg_banner">
+          {/* <div className="bg_banner">
             <Image src={"/images/bg-bw-blur.png"} fill={true} alt="Banner" />
-          </div>
+          </div> */}
           <div className="">
             <div className="slider">
               {/* <Image src={"/images/banner1.png"} fill={true} alt="Banner" /> */}
@@ -203,12 +203,19 @@ export default function Home() {
           <h2 className="title">
             <strong className="clr_blue">Testimonials</strong>
           </h2>
-          <Splide
+          <Splide className="testimonial_slider"
             options={{
               autoplay: true,
               type: "loop",
               perPage: 3,
               perMove: 1,
+              breakpoints: {
+                480: {
+                  perPage: 1,
+                  gap: ".7rem",
+                  height: "6rem",
+                },
+              },
             }}
             aria-label="My Favorite Images"
           >

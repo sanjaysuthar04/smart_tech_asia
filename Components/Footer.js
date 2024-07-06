@@ -56,7 +56,7 @@ const Footer = () => {
             <div className="company_name mt-2">AN EVENT ORGANISED BY</div>
             <Image src={"/images/mm.png"} width={110} height={45} alt="Logo" />
           </div>
-          <div className="col-12 col-md-8 ps-5">
+          <div className="col-12 col-md-8 ps-0 ps-md-5 mt-5 mt-md-0">
             <h4>Meet the Team</h4>
             <div className="row mt-3">
               <div className="col-12 col-md-6">
