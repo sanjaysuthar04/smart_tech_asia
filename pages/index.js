@@ -45,7 +45,7 @@ export default function Home() {
                 }}
                 aria-label="My Favorite Images"
               >
-                <SplideSlide c>
+                <SplideSlide>
                   <img
                     src="/images/slides/banner-1.jpg"
                     className="w-100"
@@ -197,6 +197,113 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="testimonials_section">
+          <h2 className="title">
+            <strong className="clr_blue">Testimonials</strong>
+          </h2>
+          <Splide
+            options={{
+              autoplay: true,
+              type: "loop",
+              perPage: 3,
+              perMove: 1,
+            }}
+            aria-label="My Favorite Images"
+          >
+            <SplideSlide>
+              <img
+                src="/images/testimonials/1.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/2.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/3.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/4.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/5.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/6.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/7.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/8.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/9.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/10.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/11.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/12.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+            <SplideSlide>
+              <img
+                src="/images/testimonials/13.jpg"
+                className="w-100"
+                alt="testimonials"
+              />
+            </SplideSlide>
+          </Splide>
         </section>
 
         <section className="partner_section">
