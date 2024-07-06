@@ -25,6 +25,14 @@
   background-color: #f6fff1;
 }
 
+.btn-secondary {
+  background-color: #ed820e !important;
+  border-color: #ed820e !important;
+}
+.resize-img-height {
+  object-fit: cover;
+  object-position: center;
+}
 .title {
   font-size: 1.75rem;
   text-align: center;
@@ -59,7 +67,10 @@ header {
     // height: 400px;
     .splide__slide {
       img {
-        border-radius: 20px;
+        // border-radius: 20px;
+        height: calc(100vh - 158px);
+        object-fit: cover;
+        object-position: center;
       }
     }
   }
@@ -91,7 +102,7 @@ header {
       }
       .hg_desc {
         font-size: 1.25rem;
-
+        padding: 20px 0;
         color: #fff;
         text-align: center;
         display: block;
@@ -115,6 +126,8 @@ header {
   position: relative;
   background-color: #f6fff1;
   padding: 60px 0;
+  background: linear-gradient(#f6fff1, rgb(255 255 255 / 32%)),
+    url("/images/bg-auth.jpg");
   .about_box {
     h3 {
       font-size: 1.25rem;
@@ -195,6 +208,11 @@ footer {
       font-weight: 400;
       line-height: 17px;
       margin-top: 4px;
+    }
+  }
+  .social_media_icons {
+    a {
+      color: #0c54a0;
     }
   }
 }

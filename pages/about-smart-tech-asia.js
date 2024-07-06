@@ -9,53 +9,109 @@ export default function AboutSmartTechAsia() {
         title={"About SmartTech Asia"}
       >
         <div className="container">
-          <p>
-            <strong>SmartCards Expo</strong>&nbsp;is now&nbsp;
-            <strong>SmartTech Asia!</strong>
-          </p>
-          <p>
-            SmartCards Expo, as India&rsquo;s only trade fair for this industry,
-            has seen unprecedented success in the past two decades along with
-            its cluster of co-located shows on RFID, biometrics, e-security,
-            IoT, AI and digital payments. We have rebranded this cluster of
-            trade fairs under a single name&nbsp;
-            <strong>&lsquo;SmartTech Asia&rsquo;</strong>&nbsp;to represent
-            identification, authentication, and digital payment technologies.
-          </p>
-          <p>
-            The new name resonates with smart technologies and offers an
-            opportunity to include new segments and sub-segments within the
-            larger spectrum and also enhance engagement with the industry. We
-            are delighted with the success of this latest edition of SmartCards
-            Expo 2022, and we are confident of more success with SmartTech Asia
-            in the forthcoming editions
-          </p>
-          <p>
-            Launched in 1999, SmartCards Expo was acquired by Messe Muenchen
-            India in April 2018 as a part of its international expansion
-            strategy. It is India&rsquo;s only trade fair focusing on smart card
-            technologies and is organized along with the co-located trade fairs
-            IoT India Expo, e-Security Expo, RFID India Expo, Biometrics India
-            Expo, Digital Payments India Expo and Artificial Intelligence India
-            Expo.
-          </p>
-          <p>
-            The Indian industry will witness an upsurge in the demand for the
-            emerging digital technologies and services in the coming years. The
-            recent initiatives by the Indian government to foster best-in-class
-            infrastructure for developing the industries will lead to adoption
-            of smart factories, thereby further boosting the need for advanced
-            technologies.
-          </p>
-          <p>
-            Supported by&nbsp;
-            <strong>
-              Ministry of Electronics &amp; Information Technology (MeitY)
-            </strong>
-            , SmartTech Asia aims to bridge the gap between the government and
-            the industry by bringing the stakeholders at a single largest
-            platform.
-          </p>
+          <div className="row">
+            <div className="col-md-6">
+              <p>
+                <strong>
+                  India's Digital Boom: A Launchpad for Innovation and Inclusion
+                </strong>
+              </p>
+              <p>
+                India's digital landscape is brimming with potential for secure
+                identity management, seamless authentication, and revolutionary
+                payment solutions. Aadhaar, the world's largest biometric ID
+                system, serves as a cornerstone for robust identity
+                verification, while initiatives like eKYC streamline online
+                onboarding processes.
+              </p>
+              <p>
+                The Unified Payments Interface (UPI) has been a game-changer for
+                digital transactions, enabling instant, affordable, and
+                universally accessible payments, even in remote areas. This
+                powerful convergence of technologies fosters a fertile ground
+                for innovation, empowering individuals and businesses across the
+                spectrum.
+              </p>
+            </div>
+            <div className="col-md-6">
+              <img
+                src="/images/aboutus/1.JPG"
+                className="w-100 resize-img-height"
+                style={{
+                  height: "300px",
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <img
+                src="/images/aboutus/2.jpg"
+                className="w-100 resize-img-height"
+                style={{
+                  height: "300px",
+                }}
+              />
+            </div>
+            <div className="col-md-6">
+              <p>
+                <strong>Envision a future:</strong>
+              </p>
+              <p>
+                <ul>
+                  <li>
+                    Aadhaar-powered authentication grants secure access to
+                    online services.
+                  </li>
+                  <li>
+                    Microentrepreneurs are equipped with instant mobile
+                    payments.
+                  </li>
+                  <li>Financial inclusion is a reality for millions.</li>
+                </ul>
+              </p>
+              <p>
+                The transformative potential of India's digital identity and
+                payments infrastructure is undeniable. It paves the way for a
+                more inclusive, efficient, and prosperous future for all.
+              </p>
+            </div>
+          </div>
+
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <p>
+                <strong>Key highlights</strong>
+              </p>
+              <p>
+                <ul>
+                  <li>
+                    A buyer-seller platform facilitating direct business
+                    interactions.
+                  </li>
+                  <li>
+                    Participation from tech giants like HID Global and Dell
+                    Technologies.
+                  </li>
+                  <li>
+                    The NASSCOM Start-up Pavilion showcases cutting-edge
+                    solutions from new market players, propelling their
+                    businesses to new heights.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div className="col-md-6">
+              <img
+                src="/images/aboutus/3.jpg"
+                className="w-100 resize-img-height"
+                style={{
+                  height: "200px",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </InnerPageLayout>
     </>

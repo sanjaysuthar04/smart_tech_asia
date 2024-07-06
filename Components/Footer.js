@@ -1,3 +1,6 @@
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import Image from "next/image";
 
 const Footer = () => {
@@ -21,7 +24,35 @@ const Footer = () => {
               <br />
               <strong>Fax:</strong> +91 22 42554799
             </div>
-
+            <div className="social_media_icons mt-2">
+              <a
+                href="https://www.facebook.com/profile.php?id=100094350080894"
+                className="me-2"
+              >
+                <FaFacebook />
+              </a>
+              <a href="https://twitter.com/SmartTech_Asia" className="me-2">
+                <FaXTwitter />
+              </a>
+              <a
+                href="https://www.instagram.com/asia.smarttech"
+                className="me-2"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/smarttechasia"
+                className="me-2"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCzPlaunIUioxj6Rlf6ktzMw"
+                className="me-2"
+              >
+                <FaYoutube />
+              </a>
+            </div>
             <div className="company_name mt-2">AN EVENT ORGANISED BY</div>
             <Image src={"/images/mm.png"} width={110} height={45} alt="Logo" />
           </div>

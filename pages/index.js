@@ -35,12 +35,13 @@ export default function Home() {
           <div className="bg_banner">
             <Image src={"/images/bg-bw-blur.png"} fill={true} alt="Banner" />
           </div>
-          <div className="container pt_40">
+          <div className="">
             <div className="slider">
               {/* <Image src={"/images/banner1.png"} fill={true} alt="Banner" /> */}
               <Splide
                 options={{
                   autoplay: true,
+                  type: "loop",
                 }}
                 aria-label="My Favorite Images"
               >
@@ -97,62 +98,71 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <section className="highlight_section">
+        <img
+          src="/images/show-highlisghts.jpg"
+          className="w-100"
+          alt="Show Highlights"
+        />
+        {/* <section className="highlight_section">
+          
           <div className="container">
             <div className="bg_orange_light"></div>
             <div className="highlight_section_content">
               <h2 className="title">
                 <strong className="clr_orange">Highlights</strong> of SmartTech
-                Asia 2023
+                Asia 2025
               </h2>
 
               <div className="d-flex justify-content-around mt_60">
                 <div className="hg_box" data-aos="flip-up" data-aos-delay="100">
                   <span className="hg_count">100+</span>
-                  <span className="hg_desc">
-                    Top Solution <br />
-                    Providers
-                  </span>
+                  <span className="hg_desc">Exhibitors</span>
+                </div>
+                <div className="hg_box" data-aos="flip-up" data-aos-delay="100">
+                  <span className="hg_count">6000+</span>
+                  <span className="hg_desc">Visitors</span>
                 </div>
                 <div className="hg_box" data-aos="flip-up" data-aos-delay="300">
-                  <span className="hg_count">6000+</span>
-                  <span className="hg_desc">
-                    Professional <br />
-                    Buyers
-                  </span>
+                  <span className="hg_count">80+</span>
+                  <span className="hg_desc">Speakers</span>
                 </div>
                 <div className="hg_box" data-aos="flip-up" data-aos-delay="500">
-                  <span className="hg_count">80+</span>
-                  <span className="hg_desc">
-                    International <br />
-                    Speakers
-                  </span>
+                  <span className="hg_count">200+</span>
+                  <span className="hg_desc">Delegates</span>
                 </div>
                 <div className="hg_box" data-aos="flip-up" data-aos-delay="700">
                   <span className="hg_count">200+</span>
-                  <span className="hg_desc">
-                    B2B <br />
-                    Meetings
-                  </span>
+                  <span className="hg_desc">B2B Meetings</span>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="about_section">
+        <section className="about_section" style={{ marginTop: 0 }}>
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-6">
                 <div className="about_box">
-                  <h3>SmartTech Asia 2023</h3>
+                  <h3>Welcome to SmartTech Asia</h3>
                   <p>
-                    Launched in 1999, SmartCards Expo was acquired by Messe
-                    Muenchen India in April 2018 as a part of its international
-                    expansion strategy. It is India&apos;s only trade fair
-                    focusing on smart card technologies
-                    <span className="read_more">Read More</span>
+                    SmartTech Asia Expo represents AI, IoT, RFID ,biometrics,
+                    barcodes, digital payment, smart cards technologies. The
+                    show has seen unprecedented success in the past two decades.
+                    {/* <span className="read_more">Read More</span> */}
+                  </p>
+                  <p>
+                    With the latest edition in Bengaluru, SmartTech Asia 2023
+                    has successfully ventured into the next generation of smart
+                    technology solutions. The event focusing on pioneering
+                    solutions in AI, IoT, RFID ,biometrics, barcodes, digital
+                    payment, smart cards technologies presented unmatched
+                    networking opportunities and unlocked ample business
+                    opportunities. The well-curated and knowledge-rich
+                    conferences of the event brought together industry experts
+                    to delve deep into the topics of emerging trends in
+                    identity, accessibility and traceability management, and
+                    increasing security risks of AI.
                   </p>
                 </div>
                 <span className="divider"></span>
@@ -191,9 +201,9 @@ export default function Home() {
 
         <section className="partner_section">
           <div className="container">
-            <h2 className="title">
+            {/* <h2 className="title">
               <strong className="clr_blue">Partners</strong>
-            </h2>
+            </h2> */}
             {/* <div className="row pt_40">
               <div className="col-12 col-md-2">
                 <picture>
@@ -304,11 +314,11 @@ export default function Home() {
                 </picture>
               </div>
             </div> */}
-            <div className="row pt_40">
+            <div className="row ">
               <div className="col-12 col-md-12">
                 <picture>
                   <img
-                    src={"/images/partners-1.gif"}
+                    src={"/images/partners.jpg"}
                     className="w-100"
                     alt="Partners"
                   />
