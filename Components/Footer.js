@@ -65,25 +65,15 @@ const Footer = () => {
                   <div className="contact_details">
                     Group Exhibition Director
                     <br />
-                    +91 8080844022 | brijesh.nair@mm-india.in
+                    +91 22 4255 4707 | brijesh.nair@mm-india.in
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-6">
                 <div className="contact_card">
-                  <div className="contact_name">West - Amit Raushan</div>
+                  <div className="contact_name">Shweta Ojha</div>
                   <div className="contact_details">
-                    Project Manager
-                    <br />
-                    +91 9833551198 | amit.raushan@mm-india.in
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-6">
-                <div className="contact_card">
-                  <div className="contact_name">North - Shweta Ojha</div>
-                  <div className="contact_details">
-                    Deputy Business Director
+                    Project Director
                     <br />
                     +91 9167934930 | shweta.ojha@mm-india.in
                   </div>
@@ -91,9 +81,30 @@ const Footer = () => {
               </div>
               <div className="col-12 col-md-6">
                 <div className="contact_card">
+                  <div className="contact_name">West - Ajay Gore</div>
+                  <div className="contact_details">
+                    Business Manager
+                    <br />
+                    +91 7977576762 | ajay.gore@mm-india.in
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="contact_card">
+                  <div className="contact_name">West - Pranit Vichare</div>
+                  <div className="contact_details">
+                    Business Manager
+                    <br />
+                    +91 9892316678 | pranit.vichare@mm-india.in
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6">
+                <div className="contact_card">
                   <div className="contact_name">South - Saravana Anand</div>
                   <div className="contact_details">
-                    Deputy Business Director
+                    Director Business Alliance
                     <br />
                     +91 9916390422 | saravana.anand@mm-india.in
                   </div>
