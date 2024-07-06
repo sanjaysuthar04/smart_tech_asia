@@ -13,16 +13,17 @@ export default function AboutSmartTechAsia() {
             <div className="col-md-6">
               <p>
                 <strong>
-                  India's Digital Boom: A Launchpad for Innovation and Inclusion
+                  India&apos;s Digital Boom: A Launchpad for Innovation and
+                  Inclusion
                 </strong>
               </p>
               <p>
-                India's digital landscape is brimming with potential for secure
-                identity management, seamless authentication, and revolutionary
-                payment solutions. Aadhaar, the world's largest biometric ID
-                system, serves as a cornerstone for robust identity
-                verification, while initiatives like eKYC streamline online
-                onboarding processes.
+                India&apos;s digital landscape is brimming with potential for
+                secure identity management, seamless authentication, and
+                revolutionary payment solutions. Aadhaar, the world&apos;s
+                largest biometric ID system, serves as a cornerstone for robust
+                identity verification, while initiatives like eKYC streamline
+                online onboarding processes.
               </p>
               <p>
                 The Unified Payments Interface (UPI) has been a game-changer for
@@ -72,9 +73,9 @@ export default function AboutSmartTechAsia() {
                 </ul>
               </p>
               <p>
-                The transformative potential of India's digital identity and
-                payments infrastructure is undeniable. It paves the way for a
-                more inclusive, efficient, and prosperous future for all.
+                The transformative potential of India&apos;s digital identity
+                and payments infrastructure is undeniable. It paves the way for
+                a more inclusive, efficient, and prosperous future for all.
               </p>
             </div>
           </div>

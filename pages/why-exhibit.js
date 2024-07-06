@@ -10,7 +10,7 @@ export default function WhyExhibit() {
               <img src="/images/why-participate/1.jpg" className="w-100" />
               <div className="mt-2 mb-5">
                 <p>
-                  India's financial and commercial hub is home to leading
+                  India&apos;s financial and commercial hub is home to leading
                   industries.
                 </p>
                 <ul>
