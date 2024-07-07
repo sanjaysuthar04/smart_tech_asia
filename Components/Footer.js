@@ -14,8 +14,10 @@ const Footer = () => {
               Messe Muenchen India Pvt Ltd
             </div>
             <div className="company_address mt-2">
-              762/862, Solitaire Corporate Park, Building No. 7, <br />
-              6th Floor, Andheri East, Mumbai, 400093
+              Unit No. 1271, Solitaire Corporate Park, 7th Floor, <br />
+              Building No.12, 167, Guru Hargovindji Marg, <br />
+              Andheri - Ghatkopar Link Road, <br />
+              Andheri (East), Mumbai - 400 093
             </div>
             <div className="company_other_details mt-2">
               <strong>Tel:</strong> +91 22 42554700
