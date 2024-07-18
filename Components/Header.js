@@ -43,7 +43,7 @@ const Header = () => {
                     Book Your Booth
                   </a>
                   <a
-                    href="https://mmiconnect.in/tse-2025/visitor/registration?source=website"
+                    href="https://mmiconnect.in/sta-2025/visitor/registration?source=website"
                     target="_blank"
                     className="btn btn-secondary btn-sm"
                   >

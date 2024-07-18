@@ -74,7 +74,7 @@ const Menu = () => {
                 Visitor profile
               </Link>
               <Link
-                href="https://mmiconnect.in/tse-2025/visitor/registration?source=website​"
+                href="https://mmiconnect.in/sta-2025/visitor/registration?source=website​"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
