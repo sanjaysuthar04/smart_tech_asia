@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import testimonialsObj from "@/data/testimonials";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -203,7 +204,8 @@ export default function Home() {
           <h2 className="title">
             <strong className="clr_blue">Testimonials</strong>
           </h2>
-          <Splide className="testimonial_slider"
+          <Splide
+            className="testimonial_slider"
             options={{
               autoplay: true,
               type: "loop",
@@ -219,97 +221,28 @@ export default function Home() {
             }}
             aria-label="My Favorite Images"
           >
-            <SplideSlide>
-              <img
-                src="/images/testimonials/1.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/2.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/3.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/4.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/5.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/6.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/7.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/8.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/9.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/10.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/11.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/12.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <img
-                src="/images/testimonials/13.jpg"
-                className="w-100"
-                alt="testimonials"
-              />
-            </SplideSlide>
+            {testimonialsObj.map((item) => (
+              <SplideSlide>
+                <div className="testimonial_box">
+                  <div className="testimonial_text"><span>&ldquo;</span>{item.testimonial}&rdquo;</div>
+                  <div className="d-flex mt-3">
+                    <div>
+                      <img
+                        src={`/images/testimonials/${item.photo}`}
+                        className="photo"
+                        alt="testimonials"
+                      />
+                    </div>
+                    <div>
+                      <div className="testimonial_name">{item.name}</div>
+                      <div className="testimonial_company_name">
+                        {item.company_name}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SplideSlide>
+            ))}
           </Splide>
         </section>
 
