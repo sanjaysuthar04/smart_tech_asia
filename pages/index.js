@@ -221,8 +221,8 @@ export default function Home() {
             }}
             aria-label="My Favorite Images"
           >
-            {testimonialsObj.map((item) => (
-              <SplideSlide>
+            {testimonialsObj.map((item, key) => (
+              <SplideSlide key={key}>
                 <div className="testimonial_box">
                   <div className="testimonial_text"><span>&ldquo;</span>{item.testimonial}&rdquo;</div>
                   <div className="d-flex mt-3">

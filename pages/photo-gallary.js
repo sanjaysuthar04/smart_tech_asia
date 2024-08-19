@@ -3,7 +3,7 @@ import InnerPageLayout from "@/Components/InnerPageLayout";
 export default function Glimpses() {
   return (
     <>
-      <InnerPageLayout seotitle="Glimpses" title={"Glimpses"}>
+      <InnerPageLayout seotitle="Photo Gallary" title={"Photo Gallary"}>
         <div className="container">To be updated soon</div>
       </InnerPageLayout>
     </>

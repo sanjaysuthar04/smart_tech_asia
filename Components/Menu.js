@@ -53,7 +53,11 @@ const Menu = () => {
               >
                 Exhibitor profile
               </Link>
-              <Link href="https://mmiconnect.in/sta-2025/enquiry?source=website​" className="dropdown-item" data-rr-ui-dropdown-item>
+              <Link
+                href="https://mmiconnect.in/sta-2025/enquiry?source=website​"
+                className="dropdown-item"
+                data-rr-ui-dropdown-item
+              >
                 Exhibitor Registration
               </Link>
             </NavDropdown>
@@ -139,7 +143,22 @@ const Menu = () => {
                 Glimpses of 2023
               </Link>
             </NavDropdown>
-
+            <Link
+              href="/downloads"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Downloads
+            </Link>
+            <Link
+              href="/photo-gallary"
+              role="button"
+              className="nav-link"
+              tabindex="0"
+            >
+              Photo Gallary
+            </Link>
             <Link
               href="/contact-us"
               role="button"
