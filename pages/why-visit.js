@@ -53,7 +53,7 @@ export default function WhyVisit() {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8 d-flex visit_row">
               <div className="text_desc">
-                <strong>Venue</strong> - Jio World Trade Centre's cutting-edge
+                <strong>Venue</strong> - Jio World Trade Centre&apos;s cutting-edge
                 facility, provides an ideal setting for meaningful engagements
                 among decision - makers, facilitating the unlocking of business
                 opportunities.
