@@ -4,54 +4,62 @@ export default function VisitorProfile() {
   return (
     <>
       <InnerPageLayout seotitle="Visitor Profile" title={"Visitor Profile"}>
-        <div className="container">
-          <h2>Industry</h2>
-          <div className="row mb-3">
-            <div className="col-12 col-md-4">
-              <ul>
-                <li>Banking / Finance</li>
-                <li>Manufacturing</li>
-                <li>Logistic / Transport</li>
-                <li>IT/ ITes</li>
-                <li>Education Institutes</li>
-              </ul>
-            </div>
-            <div className="col-12 col-md-4">
-              <ul>
-                <li>Government / PSU</li>
-                <li>Telecom</li>
-                <li>Healthcare</li>
-                <li>Hospitality</li>
-                <li>Online Retail</li>
-              </ul>
-            </div>
-            <div className="col-12 col-md-4">
-              <ul>
-                <li>Dealers / Retailers</li>
-                <li>Defense / Security</li>
-                <li>Infrastructure</li>
-                <li>Port Authorities</li>
-              </ul>
-            </div>
-          </div>
-
-          <h2>Job Function</h2>
+        <div className="container visitor_profile_page">
           <div className="row">
-            <div className="col-12 col-md-4">
-              <ul>
-                <li>Management / Business Head</li>
-                <li>Design / R &amp; D</li>
-                <li>Purchasing / Procuring</li>
-                <li>Quality Control / Quality Assurance Testing</li>
-              </ul>
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Banking & finance.png"
+                className="profile_icon"
+              />
+              <h3>Banking & Finance</h3>
             </div>
-            <div className="col-12 col-md-4">
-              <ul>
-                <li>Hardware Development</li>
-                <li>IT Managers/ Sr Managers</li>
-                <li>Administration / HR</li>
-                <li>Marketing/ Advertising / PR</li>
-              </ul>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Transport & Logistics.png"
+                className="profile_icon"
+              />
+              <h3>Transport & Logistics</h3>
+            </div>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Healthcare.png"
+                className="profile_icon"
+              />
+              <h3>Healthcare</h3>
+            </div>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Education.png"
+                className="profile_icon"
+              />
+              <h3>Education </h3>
+            </div>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Manufacturing.png"
+                className="profile_icon"
+              />
+              <h3>Manufacturing</h3>
+            </div>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Government - psu - defence.png"
+                className="profile_icon"
+              />
+              <h3>Government / PSU / Defense</h3>
+            </div>
+
+            <div className="col-12 col-md-3 text-center">
+              <img
+                src="/images/visitor-profile/Retail - ecommerce.png"
+                className="profile_icon"
+              />
+              <h3>Retail / E-commerce</h3>
             </div>
           </div>
         </div>

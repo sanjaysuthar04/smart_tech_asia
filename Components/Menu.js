@@ -68,7 +68,7 @@ const Menu = () => {
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Why visit?
+                Good Reason to Visit
               </Link>
               <Link
                 href="/visitor-profile"
@@ -134,15 +134,6 @@ const Menu = () => {
               </Link>
             </NavDropdown>
 
-            <NavDropdown title="Downloads" id="basic-nav-exhibit">
-              <Link
-                href="/glimpses"
-                className="dropdown-item"
-                data-rr-ui-dropdown-item
-              >
-                Glimpses of 2023
-              </Link>
-            </NavDropdown>
             <Link
               href="/downloads"
               role="button"
