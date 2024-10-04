@@ -1,5 +1,4 @@
 import InnerPageLayout from "@/Components/InnerPageLayout";
-import Link from "next/link";
 
 export default function AboutMesseMuenchenIndia() {
   return (
