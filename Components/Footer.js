@@ -91,7 +91,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-6">
+              {/* <div className="col-12 col-md-6">
                 <div className="contact_card">
                   <div className="contact_name">West - Pranit Vichare</div>
                   <div className="contact_details">
@@ -100,7 +100,7 @@ const Footer = () => {
                     +91 9892316678 | pranit.vichare@mm-india.in
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-12 col-md-6">
                 <div className="contact_card">
