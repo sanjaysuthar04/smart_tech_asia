@@ -8,8 +8,8 @@ export default function ConferenceAgenda() {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8">
               <p>
-                "Redefining Business Process Management with Identification,
-                Authentication and Cyber Security for a Secure Digital Future"
+              &ldquo;Redefining Business Process Management with Identification,
+                Authentication and Cyber Security for a Secure Digital Future&rdquo;
               </p>
               <p>
                 <b>
@@ -18,7 +18,7 @@ export default function ConferenceAgenda() {
                 </b>
               </p>
               <p>
-                The world is evolving into a 'glocal' village, where businesses
+                The world is evolving into a &apos;glocal&apos; village, where businesses
                 are rapidly embracing automation, cybersecurity, and identity
                 management to streamline operations. With the Indian Business
                 Process Management (BPM) market set to grow at 11.7% CAGR by
@@ -84,7 +84,7 @@ export default function ConferenceAgenda() {
                 can face hefty will be penalties&hellip; brand
                 reputation&hellip; . Identity and Access Management (IAM)
                 policies and regulations are an essential component of an
-                organization's security and compliance. The majority of data
+                organization&apos;s security and compliance. The majority of data
                 breaches result from unauthorized network access. IT resources
                 are only accessible to authorized entities, thanks to IAM
                 policies. IAM systems enable businesses to demonstrate that
