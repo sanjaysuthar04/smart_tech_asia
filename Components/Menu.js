@@ -102,11 +102,11 @@ const Menu = () => {
 
             <NavDropdown title="Conference" id="basic-nav-exhibit">
               <Link
-                href="/conference-agenda"
+                href="/conference-program"
                 className="dropdown-item"
                 data-rr-ui-dropdown-item
               >
-                Conference Agenda
+                Conference Program
               </Link>
               <Link
                 href="/speakers"
