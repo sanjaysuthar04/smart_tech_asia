@@ -14,6 +14,10 @@
 .clr_blue {
   color: #0c54a0;
 }
+
+.clr_gray {
+  color: #8b8b8b;
+}
 // backgroud
 .bg_orange {
   background-color: #ed820e;
@@ -393,4 +397,11 @@ footer {
     font-size: 18px;
     color: #656565;
   }
+}
+
+.conference_session {
+  border: 2px solid #0c54a0;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 20px;
 }
