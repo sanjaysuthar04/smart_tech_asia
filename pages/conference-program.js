@@ -154,10 +154,10 @@ export default function ConferenceAgenda() {
                     ensuring audit readiness
                   </li>
                 </ul>
-                <p className="clr_gray">
+                {/* <p className="clr_gray">
                   <strong>Speakers</strong>
                 </p>
-                <p>[To Be Announced]</p>
+                <p>[To Be Announced]</p> */}
               </div>
               <div className="conference_session">
                 <p>
@@ -212,10 +212,10 @@ export default function ConferenceAgenda() {
                     The role of IAM and CPS in Industry 4.0 and onwards &hellip;
                   </li>
                 </ul>
-                <p className="clr_gray">
+                {/* <p className="clr_gray">
                   <strong>Speakers:&nbsp;</strong>
                 </p>
-                <p>[To Be Announced]</p>
+                <p>[To Be Announced]</p> */}
               </div>
 
               <div className="conference_session">
@@ -279,10 +279,10 @@ export default function ConferenceAgenda() {
                     Strategies for businesses to protect against cyber incidents
                   </li>
                 </ul>
-                <p className="clr_gray">
+                {/* <p className="clr_gray">
                   <strong>Speakers</strong>
                 </p>
-                <p>[To Be Announced]</p>
+                <p>[To Be Announced]</p> */}
                 <p>&nbsp;</p>
               </div>
 
@@ -377,10 +377,10 @@ export default function ConferenceAgenda() {
                     advanced technologies
                   </li>
                 </ul>
-                <p className="clr_gray">
+                {/* <p className="clr_gray">
                   <strong>Speakers</strong>
                 </p>
-                <p>[To Be Announced]</p>
+                <p>[To Be Announced]</p> */}
               </div>
 
               <div className="conference_session">
@@ -437,15 +437,20 @@ export default function ConferenceAgenda() {
                     security breach is a constant threat
                   </li>
                 </ul>
-                <p className="clr_gray">
+                {/* <p className="clr_gray">
                   <strong>Speakers</strong>
                 </p>
-                <p>[To Be Announced]</p>
+                <p>[To Be Announced]</p> */}
               </div>
               <h2 className="clr_orange">
                 <strong>Knowledge Partner</strong>
               </h2>
               <p>
+                <img className="mb-3"
+                  src="images/writecanvas.jpg"
+                  style={{ maxWidth: "320px" }}
+                />{" "}
+                <br />
                 <a href="https://writecanvas.in/">
                   <strong>WriteCanvas</strong>
                 </a>{" "}
@@ -461,6 +466,10 @@ export default function ConferenceAgenda() {
                 long-lasting connections with industry leaders at WriteCanvas
                 curated events.
               </p>
+
+              <a className="btn btn-secondary verticle_btn" href="#">
+                Delegate Registration
+              </a>
             </div>
           </div>
         </div>

@@ -113,6 +113,38 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
+            <div className="row mt-3">
+              <div className="col-12 col-md-12 mb-3">
+                <h4>
+                  For inquiries about the conference speakers and agenda, please
+                  contact:
+                </h4>
+              </div>
+              <div className="col-12 col-md-6">
+                <div className="contact_card">
+                  <div className="contact_name">Sonal Desai</div>
+                  <div className="contact_details">
+                    Director, Strategy, WriteCanvas, <br />
+                    Managing Editor, ESGnews.earth
+                    <br />
+                    +91 9869049045 <br /> sonal@writecanvas.in |
+                    sonal.prakriti@gmail.com
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6">
+                <div className="contact_card">
+                  <div className="contact_name">Priti D. Mistry</div>
+                  <div className="contact_details">
+                    Chief Marketing Officer, WriteCanvas &amp; ESGnews.earth
+                    <br />
+                    +91 9769358017
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

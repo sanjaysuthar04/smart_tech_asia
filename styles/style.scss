@@ -405,3 +405,17 @@ footer {
   padding: 8px;
   margin-bottom: 20px;
 }
+
+.verticle_btn {
+  display: block;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  transform-origin: bottom right;
+
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -moz-transform: rotate(-90deg); /* Firefox */
+  -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+  -o-transform: rotate(-90deg); /* Opera */
+}
